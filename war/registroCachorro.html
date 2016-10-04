@@ -1,0 +1,92 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<link rel="stylesheet" href="css/registroC.css">
+	<link rel="stylesheet" href="css/fonts2.css">
+	<link rel="stylesheet" href="css/jquery-ui.css">
+	<link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+	<script src="js/jquery-3.1.0.min.js"></script>
+	<script src="js/jquery-ui.js"></script>
+
+	<title>Formularios></title>
+
+
+	<script>
+		  $( function() {
+		    $( document ).tooltip();
+		  } );
+  </script>
+</head>
+<body>
+	<div class="contenedor-formulario">
+		<div class="wrap">
+			<center><h1 id ="titulo">NUEVO CACHORRO</h1></center>
+			<form action="" class="formulario" name="formulario_registro" method="get">
+				<div id="zona1">
+					<fieldset>
+						<legend>DATOS TÉCNICOS</legend>
+						<div class="input-group">
+							<input type="text" id="raza" name="raza">
+							<label class="label" for="raza"><span title="Raza a la que pertenece el perro" class="iconM-info-with-circle este"></span>Raza:</label>
+						</div>
+						<div class="input-group">
+							<input type="text" id="origen" name="origen">
+							<label class="label" for="origen"><span title="Zona Geografica de Origen" class="iconM-info-with-circle este"></span>Origen:</label>
+						</div>
+						<div class="input-group">
+							<input type="text" id="categoria" name="categoria">
+							<label class="label" for="categoria"><span title=" Grande,mediano,chico" class="iconM-info-with-circle  este"></span>Categoria:</label>
+						</div>
+						<div class="input-group">
+							<input type="text" id="esperanza_vida" name="esperanza_vida">
+							<label class="label" for="esperanza_vida"><span title="Tiempo promedio de vida en AÑOS" class="iconM-info-with-circle este"></span>Esperanza de vida:</label>
+						</div>
+					</fieldset>
+					
+				</div>
+				<div id="imagen_div">
+					<h3><span class="iconM-upload2" id = "logo_subir"></span></h3>
+					<h3>Subir Foto</h3>
+					
+				</div>
+				<div id="zona2">
+					<fieldset id = "campo2">
+						<legend>INFORMACIÓN DEL CACHORRO</legend>
+						<div class="input-group">
+							<input type="text" id="temperamento" name="temperamento">
+							<label class="label" for="temperamento"><span title=" Imagen que proyecta el cachorro debido a su raza" class="iconM-info-with-circle  este"></span>Temperamento:</label>
+						</div>
+
+						<div class="input-group">
+							<input type="text" id="color" name="color">
+							<label class="label" for="color"><span title="Color de pelaje, indicar si presenta cruce" class="iconM-info-with-circle  este"></span>Color:</label>
+						</div>
+
+						<div class="input-group">
+							<input type="text" id="altura" name="altura">
+							<label class="label" for="altura"><span title=" En centimetros" class="iconM-info-with-circle  este"></span>Altura:</label>
+						</div>
+						<div class="input-group">
+							<input type="text" id="peso" name="peso">
+							<label class="label" for="peso"><span title=" En kilogramos" class="iconM-info-with-circle  este"></span>Peso:</label>
+						</div>
+					</fieldset>
+				</div>
+				<div id="form_button">
+					<div class="input-group checkbox">
+						<input type="checkbox" name="terminos" id="terminos" value="true">
+						<label for="terminos"><span class="iconM-text-document"></span> Acepto los Terminos y Condiciones</label>
+					</div>
+						
+					<input type="submit" id="btn-submit" value="REGISTRAR CACHORRO">
+				</div>
+				
+			</form>
+		</div>
+	</div>
+
+	<script src="js/registro.js"></script>
+</body>
+</html>
