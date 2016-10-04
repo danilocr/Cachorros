@@ -1,0 +1,37 @@
+.animacion{
+	width: 100%;
+	overflow: hidden;
+}
+.animacion ul{
+   display: flex;	
+   padding: 0;
+   width: 500%;
+  
+   animation: cambio 25s infinite;
+   animation-direction:alternate;
+}
+.animacion li{
+	width: 20%;
+	list-style: none;
+}
+.animacion img{
+	width: 1000px;
+	height: 550px;
+}
+
+@keyframes cambio{
+	0% { margin-left: 0;}
+	16% { margin-left: 0;}
+	21%{margin-left:-100%;}
+	37%{margin-left: -100%}
+
+	42%{margin-left: -200%}
+	58%{margin-left:  -200%}
+
+	63%{margin-left: -300% }
+	79%{margin-left: -300%}
+
+	84%{margin-left: -400% }
+	100%{margin-left: -400%}
+}
+

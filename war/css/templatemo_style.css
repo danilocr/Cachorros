@@ -1,0 +1,53 @@
+#templatemo_sidebar {
+	float: left;
+	width: 260px;
+padding: 16px;
+}
+
+#aboutus {
+	padding: 20px;
+	background: #000;
+	color: #a5a5a5;
+	margin-bottom: 20px;
+}
+
+#aboutus h3 {
+	color: #fff;
+	padding: 0;
+	font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.sidebar_box {
+	clear: both;
+	margin-bottom: 20px;
+	width: 300px;
+}
+
+.sm_two_col { margin: 0; padding: 0; list-style: none; }
+.sm_two_col li { margin: 0; padding: 0; }
+
+.sm_two_col li a {
+	display: block; 
+	float: left;
+	width: 130px;
+	text-decoration: none; 
+	font-size: 11px;  
+	margin: 0 0 3px 0; 
+	padding: 3px 0; 
+	border-bottom: 1px solid #ddd; 
+}
+
+.sm_two_col li a span { color: #f00; }
+
+#templatemo_sidebar form { padding: 0; margin: 0; }
+
+#templatemo_sidebar form .newsletter_email { 
+	width: 160px; 
+	height: 28px; 
+	background: url(../images/templatemo_subscribe.jpg) no-repeat; 
+	border: none; 
+	padding: 0 5px; 
+}
+
+
+
